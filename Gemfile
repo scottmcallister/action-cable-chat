@@ -31,6 +31,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 # Twitter Bootstrap for easily implementing decent looking CSS styles
 gem 'bootstrap'
+# Add tether for Bootstrap tooltip support 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
