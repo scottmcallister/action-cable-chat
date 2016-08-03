@@ -2,3 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap";
+
+.chat-room{
+  text-align: center;
+}
+#text-field{
+  position:fixed;
+  bottom:10px;
+  height:40px;
+}
+#text-field input{
+  width:100%;
+  border-radius:5px;
+  border: 1px solid #bbbbbb;
+  padding:5px;
+}
+.text-field-wrapper{
+  position:fixed;
+  bottom:0px;
+  height:65px;
+  padding:10px;
+  background: #eeeeee;
+  width:100%;
+}
