@@ -1,3 +1,3 @@
 # action-cable-chat
 
-A simple chat room application built with Rails and Action Cable. 
+A prototype chat room application built with Rails to experiment with Action Cable. 
